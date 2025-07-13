@@ -12,6 +12,7 @@
   </p>
   <p>
     <img src="docs/images/screenshot.png" alt="应用截图" width="700" />
+    <img src="docs/images/LinktoText.png" alt="应用截图" width="700" />
   </p>
 </div>
 
@@ -36,13 +37,13 @@ Link to Text Desktop 是一款桌面应用，可以帮助你生成带有 `#:~:te
 
 ### Windows
 
-1. 从 [Releases](https://github.com/你的用户名/link-to-text-desktop/releases) 页面下载最新的 `.exe` 或 `.msi` 安装文件
+1. 从 [Releases](https://github.com/Glidema/link-to-text-desktop/releases) 页面下载最新的 `.exe` 或 `.msi` 安装文件
 2. 双击安装文件，按照提示完成安装
 3. 首次运行时可能会出现安全警告，点击"更多信息"然后"仍要运行"即可
 
 ### macOS
 
-1. 从 [Releases](https://github.com/你的用户名/link-to-text-desktop/releases) 页面下载最新的 `.dmg` 文件
+1. 从 [Releases](https://github.com/Glidema/link-to-text-desktop/releases) 页面下载最新的 `.dmg` 文件
 2. 双击 `.dmg` 文件，将应用拖到 Applications 文件夹
 3. **注意**：由于应用未使用 Apple 开发者证书签名，首次运行时会显示"已损坏"错误
 4. 解决方法：打开终端，运行以下命令：
@@ -51,10 +52,6 @@ Link to Text Desktop 是一款桌面应用，可以帮助你生成带有 `#:~:te
    ```
 5. 然后在"系统偏好设置 > 安全性与隐私"中允许打开应用
 
-### Linux
-
-1. 从 [Releases](https://github.com/你的用户名/link-to-text-desktop/releases) 页面下载适合你发行版的包（`.AppImage`、`.deb` 或 `.rpm`）
-2. 根据你的发行版，使用相应的方法安装
 
 ## 🚀 使用方法
 

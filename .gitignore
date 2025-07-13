@@ -34,4 +34,9 @@ yarn-error.log*
 next-env.d.ts
 
 # Tauri
-/target/ 
+/target/
+
+# 不忽略图标文件
+!src-tauri/icons/*.png
+!src-tauri/icons/*.ico
+!src-tauri/icons/*.icns 

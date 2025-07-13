@@ -1,1 +1,20 @@
- 
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="512" height="512" rx="100" fill="#F8FAFC"/>
+  
+  <!-- 文档背景 -->
+  <rect x="96" y="96" width="320" height="320" rx="16" fill="white" stroke="#E2E8F0" stroke-width="8"/>
+  
+  <!-- 文本行 -->
+  <rect x="136" y="160" width="240" height="32" rx="4" fill="#E2E8F0"/>
+  <rect x="136" y="224" width="240" height="32" rx="4" fill="#4F46E5"/>
+  <rect x="136" y="288" width="160" height="32" rx="4" fill="#E2E8F0"/>
+  
+  <!-- 高亮框 -->
+  <rect x="120" y="208" width="272" height="64" rx="8" stroke="#7C3AED" stroke-width="4" fill="none"/>
+  
+  <!-- 链接符号 -->
+  <path d="M176 368C176 368 192 400 240 400C288 400 336 368 336 368" stroke="#4F46E5" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="256" cy="368" r="16" fill="#4F46E5"/>
+</svg> 

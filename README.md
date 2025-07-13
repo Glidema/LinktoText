@@ -11,7 +11,6 @@
     <a href="#许可证">许可证</a>
   </p>
   <p>
-    <img src="docs/images/screenshot.png" alt="应用截图" width="700" />
     <img src="docs/images/LinktoText.png" alt="应用截图" width="700" />
   </p>
 </div>

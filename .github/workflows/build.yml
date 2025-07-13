@@ -39,10 +39,17 @@ jobs:
       - name: 构建前端
         run: npm run build
 
+      # 如果需要启用自动更新功能，请按照以下步骤操作：
+      # 1. 生成密钥对：`tauri signer generate -w ~/.tauri/myapp.key`
+      # 2. 将公钥添加到 tauri.conf.json 的 updater.pubkey 字段
+      # 3. 将私钥添加到 GitHub 仓库的 Secrets 中，名称为 TAURI_PRIVATE_KEY
+      # 4. 将 updater.active 设置为 true
       - name: 构建 Tauri 应用
         uses: tauri-apps/tauri-action@v0.4.5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # TAURI_PRIVATE_KEY: ${{ secrets.TAURI_PRIVATE_KEY }}
+          # TAURI_KEY_PASSWORD: ${{ secrets.TAURI_KEY_PASSWORD }}
         with:
           tagName: ${{ github.ref_name }}
           releaseName: "Link to Text Desktop ${{ github.ref_name }}"

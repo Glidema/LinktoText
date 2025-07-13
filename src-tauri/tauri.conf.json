@@ -67,7 +67,12 @@
       "csp": null
     },
     "updater": {
-      "active": false
+      "active": true,
+      "endpoints": [
+        "https://github.com/你的用户名/link-to-text-desktop/releases/latest/download/latest.json"
+      ],
+      "dialog": true,
+      "pubkey": ""
     },
     "windows": [
       {

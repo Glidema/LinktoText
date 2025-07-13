@@ -23,6 +23,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18
+          cache: 'npm'
 
       - name: 安装 Rust
         uses: dtolnay/rust-toolchain@stable
@@ -40,12 +41,12 @@ jobs:
         run: npm run build
 
       - name: 构建 Tauri 应用
-        uses: tauri-apps/tauri-action@v0
+        uses: tauri-apps/tauri-action@v0.4.5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tagName: v__VERSION__ # 版本号格式
-          releaseName: "Link to Text Desktop v__VERSION__"
+          tagName: ${{ github.ref_name }}
+          releaseName: "Link to Text Desktop ${{ github.ref_name }}"
           releaseBody: "查看 CHANGELOG.md 获取详细更新内容。"
           releaseDraft: true
           prerelease: false 

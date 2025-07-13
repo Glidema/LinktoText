@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none">
+  <!-- 圆形背景 -->
+  <circle cx="100" cy="100" r="90" fill="url(#gradient)" />
+  
+  <!-- 文档图标 -->
+  <path d="M70 55H130C135.523 55 140 59.4772 140 65V135C140 140.523 135.523 145 130 145H70C64.4772 145 60 140.523 60 135V65C60 59.4772 64.4772 55 70 55Z" fill="white" />
+  
+  <!-- 文本线条 -->
+  <rect x="75" y="75" width="50" height="6" rx="3" fill="#E2E8F0" />
+  <rect x="75" y="90" width="50" height="6" rx="3" fill="#4F46E5" />
+  <rect x="75" y="105" width="35" height="6" rx="3" fill="#E2E8F0" />
+  
+  <!-- 高亮框 -->
+  <rect x="70" y="85" width="60" height="16" rx="4" stroke="#7C3AED" stroke-width="2" fill="none" />
+  
+  <!-- 链接符号 -->
+  <path d="M80 125C80 125 90 135 100 135C110 135 120 125 120 125" stroke="#4F46E5" stroke-width="4" stroke-linecap="round" />
+  <circle cx="100" cy="125" r="6" fill="#4F46E5" />
+  
+  <!-- 渐变定义 -->
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F0F9FF" />
+      <stop offset="100%" stop-color="#E0E7FF" />
+    </linearGradient>
+  </defs>
+</svg> 
